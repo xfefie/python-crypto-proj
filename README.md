@@ -11,8 +11,8 @@ A research + backtesting framework for building **multi-sleeve crypto portfolios
 ### Core ideas
 - **Sleeves**: independent strategy modules (carry, trend, basis, mean-reversion, defensive, etc.)
 - **Engines**: weighted blends of sleeves to achieve a portfolio objective  
-  - Example: Engine 1 (≈70% weight) = high-Sharpe / low-dd “non-directional carry”
-  - Example: Engine 2 (≈30% weight) = directional “beta engine” for upside capture
+  - Engine 1 (≈70% weight) = high-Sharpe / low-dd “non-directional carry”
+  - Engine 2 (≈30% weight) = directional “beta engine” for upside capture
 - **Overlays** (optional): leverage targeting, volatility targeting, risk-parity, drawdown controls, regime filters
 
 ### Metrics
